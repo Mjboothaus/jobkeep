@@ -14,12 +14,12 @@ from IPython.display import display
 #import os, io
 #from dateutil.parser import parse
 
-#from jobkeep.core import in_notebook
-#from jobkeep.datapipe import load_and_cache_raw_data
+from core import in_notebook
+from datapipe import load_and_cache_raw_data
 
 # Internal Cell
 
-DATA_INFO = 'https://treasury.gov.au/coronavirus/jobkeeper/data'
+DATA_INFO = '[JobKeeper: treasury.gov.au](https://treasury.gov.au/coronavirus/jobkeeper/data)'
 AUTHOR_INFO = 'AUTHOR: [Michael J. Booth](https://about.me/mjboothaus)'
 APP_NAME = 'JobKeep App'
 
