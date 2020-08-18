@@ -5,10 +5,11 @@ __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 index = {"in_notebook": "00_core.ipynb",
          "ipython_info": "00_core.ipynb",
          "load_and_cache_raw_data": "01_datapipe.ipynb",
+         "extract_postcode": "02_geog.ipynb",
+         "load_suburb_data": "02_geog.ipynb",
          "DATA_INFO": "88_app_st.ipynb",
          "AUTHOR_INFO": "88_app_st.ipynb",
          "APP_NAME": "88_app_st.ipynb",
-         "placeholder": "88_app_st.ipynb",
          "SideBar": "88_app_st.ipynb",
          "app_sidebar": "88_app_st.ipynb",
          "app_mainscreen": "88_app_st.ipynb",
@@ -17,6 +18,7 @@ index = {"in_notebook": "00_core.ipynb",
 
 modules = ["core.py",
            "datapipe.py",
+           "geog.py",
            "app_st.py"]
 
 doc_url = "https://mjboothaus.github.io/jobkeep/"
